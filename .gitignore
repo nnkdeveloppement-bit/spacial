@@ -1,0 +1,12 @@
+
+.streamlit/secrets.toml
+.streamlit/cache/
+#ignore l'environnement virtuel
+gee_env
+#variables d'environnement
+.env
+#Fichier python compilés
+_pycache
+#Logs
+*.Logs
+
