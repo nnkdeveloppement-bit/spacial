@@ -6,9 +6,9 @@ class SpatialProcessor:
         """Initialise la connexion à Earth Engine via les secrets Streamlit"""
         try:
             # Vérifier si on est en local ou sur Streamlit Cloud
-            if "gcp_service_account" in st.secrets:
+            if "earth_engine" in st.secrets:
                 # Récupération des infos du fichier .streamlit/secrets.toml
-                creds_dict = dict(st.secrets["gcp_service_account"])
+                creds_dict = dict(st.secrets["earth_engine"])
                 
                 # Authentification par compte de service
                 credentials = ee.ServiceAccountCredentials(
