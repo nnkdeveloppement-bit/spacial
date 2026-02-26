@@ -1,4 +1,4 @@
-# Obligatoire pour pkg_resources (IMPORTANT)
+# Obligatoire pour pkg_resources
 setuptools==69.5.1
 wheel==0.43.0
 
@@ -6,13 +6,13 @@ wheel==0.43.0
 streamlit==1.54.0
 streamlit-folium==0.18.0
 
-# Cartographie
-folium==0.15.1
-branca==0.7.2
-
 # Geemap stable
 geemap==0.32.0
 leafmap==0.30.0
+
+# Folium
+folium==0.15.1
+branca==0.7.2
 
 # Earth Engine
 earthengine-api==0.1.390
@@ -21,7 +21,12 @@ geocoder==1.38.1
 # Correction BoxKeyError
 python-box==7.1.1
 
-# Dépendances nécessaires
+# Versions compatibles geemap
+ipython==8.18.1
+ipywidgets==8.1.2
+ipyleaflet==0.19.2
+
+# Scientific
 numpy==1.26.4
 pandas==2.2.2
 matplotlib==3.8.4
@@ -30,6 +35,6 @@ matplotlib==3.8.4
 google-auth==2.29.0
 protobuf==4.25.3
 
-# Compatibilité
+# Utils
 requests==2.31.0
 six==1.16.0
