@@ -1,8 +1,32 @@
+# Gestion de setuptools pour pkg_resources
 setuptools>=70.0.0
-geemap==0.32.0
+wheel>=0.40.0
+
+# Streamlit et extensions
 streamlit==1.54.0
 streamlit-folium==0.18.0
-folium==0.15.1
-earthengine-api==0.1.390
-python-box==7.1.1
+
+# Géomatique et visualisation
+geemap==0.32.0
 leafmap==0.30.0
+folium==0.15.1
+branca==0.8.2
+ipyleaflet==0.20.0
+jupyter-leaflet==0.20.0
+ipyevents==2.0.4
+ipywidgets==8.1.8
+ipytree==0.2.2
+
+# Google Earth Engine
+earthengine-api==0.1.390
+geocoder==1.38.1
+
+# Boîte pour geemap
+python-box==7.1.1
+
+
+# Utilitaires
+requests
+six
+protobuf
+google-auth
