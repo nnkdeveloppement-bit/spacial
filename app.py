@@ -31,4 +31,5 @@ if submit:
         m.addLayer(img, vis_params, 'Sentinel-2 Image')
         st.success(f"Image chargée pour {lat}, {lon}")
 
+##m.to_streamlit(height=500)
 st.components.v1.html(m.to_html(), height=600)
