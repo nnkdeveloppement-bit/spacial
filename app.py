@@ -1,5 +1,5 @@
 import streamlit as st
-import geemap.foliumap as geemap
+import geemap as geemap
 import folium
 from streamlit_folium import st_folium
 from processing import SpatialProcessor
