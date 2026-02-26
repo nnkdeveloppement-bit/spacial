@@ -1,7 +1,8 @@
-streamlit==1.32.0
+setuptools>=70.0.0
 geemap==0.32.0
-earthengine-api==0.1.390
-folium==0.15.1
+streamlit==1.54.0
 streamlit-folium==0.18.0
-leafmap==0.30.0
+folium==0.15.1
+earthengine-api==0.1.390
 python-box==7.1.1
+leafmap==0.30.0

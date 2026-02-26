@@ -3,6 +3,8 @@ import geemap as geemap
 import folium
 from streamlit_folium import st_folium
 from processing import SpatialProcessor
+st.cache_data.clear()
+st.cache_resource.clear()
 
 st.title("Mon Premier Portail GEE")
 
