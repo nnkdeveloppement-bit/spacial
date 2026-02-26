@@ -6,7 +6,7 @@ gee_env
 #variables d'environnement
 .env
 #Fichier python compilés
-_pycache
+__pycache__
 #Logs
 *.Logs
 
